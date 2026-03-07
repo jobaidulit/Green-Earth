@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tailwind css-->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!--daisy ui-->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Green earth</title>
+    
+</head>
+<body>
+   <section class="w-11/12 mx-auto">
+    <h2 class="text-4xl font-bold text-center text-green-500 my-5">Choose your trees</h2>
+    <div class="grid grid-cols-12 gap-8">
+        <!--categories-->
+<div class="col-span-3">
+    <h2 class="text-2xl font-bold mb-3 text-center mt-0">Categories</h2>
+    <div>
+        <button class="btn btn-success w-full space-y-3" id="allTreesbtn">All Trees</button>
+        <!--categories container-->
+        <div id="categoriesContainer" class="space-y-3">
+<!--categories will be  dynamaly loaded here by js -->
+        </div>
+    </div>
+</div>
+<!---trees-->
+<div class="col-span-6">
+<div id="treesContainer" class="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+  
+</div>
+<!--card-->
+<div class="border-2 border-e-red-600 col-span-3"></div>
+
+    </div>
+   </section>
+   <script src="./script.js"></script>
+</body>
+</html>
