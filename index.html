@@ -54,27 +54,44 @@
     <!--header section end-->
     <!--hero section start-->
 
-    <section class="bg-green-100">
-        <div class="container max-w-[90%] mx-auto flex justify-between ">
-<div>
-    <img src="assets/hero-leaf1.png">
-</div>
-<div class="text-center">
-    <h1 class="text-4xl font-bold pt-6">Plant a Tree, Grow a Future</h1>
-    <p class="mt-5 text-gray-500 text-lg">Join our mission to plant 1 million trees and make the Earth greener for future generations.</p>
-    <button class="bg-[#facc15] text-green-700 font-medium px-4 text-[18px] rounded-3xl p-2 cursor-pointer mt-8">
-        Get Involved</button>
-</div>
-<div>
-    <img src="assets/hero-leaf2.png">
-</div>
-        </div>
-    </section>
+<section class="bg-green-100 py-16">
+  <div class="max-w-[100%] mx-auto px-4 flex flex-col md:flex-row items-center justify-around">
+
+    <!-- Left Leaf -->
+    <div class="hidden md:flex justify-between">
+      <img src="assets/hero-leaf1.png" class="w-full" alt="leaf">
+    </div>
+
+    <!-- Content -->
+    <div class="text-center max-w-2xl">
+      <h1 class="text-3xl md:text-4xl font-bold text-green-800 leading-tight">
+        Plant a Tree, Grow a Future
+      </h1>
+
+      <p class="mt-6 text-gray-600 text-base md:text-lg">
+        Join our mission to plant 1 million trees and make the Earth greener 
+        for future generations.
+      </p>
+
+      <div class="mt-8">
+        <button class="bg-yellow-400 hover:bg-yellow-500 transition text-green-800 font-semibold px-6 py-3 rounded-full shadow-md">
+          Get Involved
+        </button>
+      </div>
+    </div>
+
+    <!-- Right Leaf -->
+    <div class="hidden md:block flex justify-end">
+      <img src="assets/hero-leaf2.png" class="w-full" alt="leaf">
+    </div>
+
+  </div>
+</section>
     <!--hero secton end-->
     <!--choose trees section start-->
   <main class="bg-[#f0fdf4]">
 <div class="container max-w-[90%] mx-auto">
-        <h2 class="text-[#4ade80] font-bold text-4xl text-center pt-[100px]">Choose Your Trees</h2>
+        <h2 class="text-green-800 font-bold text-4xl text-center pt-[100px]">Choose Your Trees</h2>
 
         <div class="lg:grid grid-cols-12 gap-8">
 
