@@ -1,3 +1,22 @@
+const btn = document.getElementById("menu-btn");
+  const menu = document.getElementById("mobile-menu");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+
+    // Toggle icon
+    if (btn.innerHTML === "✖") {
+      btn.innerHTML = "☰";
+    } else {
+      btn.innerHTML = "✖";
+    }
+  });
+
+
+
+
+
+
 const categoriesContainer = document.getElementById("categoriesContainer");
 const treesContainer = document.getElementById("treesContainer");
 const loadingSpinner = document.getElementById("loadingSpinner");
